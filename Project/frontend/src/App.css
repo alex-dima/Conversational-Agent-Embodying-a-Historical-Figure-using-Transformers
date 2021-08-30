@@ -1,0 +1,21 @@
+html,
+body,
+#root {
+    height: 100%;
+    width:100vw;
+}
+
+#Layout {
+    font-family: "Noto Sans JP", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: inherit;
+    color: #3f3844
+}
+
+.Box-3D {
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+

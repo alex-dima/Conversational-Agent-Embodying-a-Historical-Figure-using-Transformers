@@ -1,0 +1,98 @@
+#content{
+    display:flex;
+    flex-flow:row nowrap;
+    height:81vh;
+}
+
+#Configurations {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 20vw;
+    border-right: 5px double #a67b5b;
+    height:100%;
+    align-items: center;
+}
+
+#Configurations > h2{
+    font-size:1.4vw;
+    margin-top:5%;
+}
+
+#Configurations > a{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    text-decoration: None;
+    font-size:1.2vw;
+    width: 75%;
+    height:8%;
+    color:inherit;
+    border: 3px solid #a67b5b;
+    border-radius: 25px;
+    margin-bottom: 10%;
+}
+#Configurations > a:hover, #Configurations > a:active{
+    color:#fff;
+    background: #a67b5b;
+}
+
+#Configurations > div {
+    display: flex;
+    flex-flow: column nowrap;
+    height:16%;
+    width:100%;
+    align-items: center;
+}
+
+#Configurations > div > label {
+    font-size:1.025vw;
+}
+
+#Configurations > div > select {
+    margin-top: 5%;
+    width:75%;
+    height:50%;
+    border-radius: 5px;
+    border: 3px solid #a67b5b;
+    font-size:1.025vw;
+    text-align: center;
+}
+
+#Configurations > div > select > option{
+    height:100%;
+}
+#Configurations > div > select > option:hover{
+    background-color: #a67b5b;
+    color:red
+}
+
+#HistoricalFigures {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    align-items: center;
+    height:100%
+}
+
+#HistoricalFigures > h2 {
+    font-size:1.4vw;
+}
+
+#HistoricalFiguresOptions {
+    display: flex;
+    flex-flow: row wrap;
+    width:90%;
+    padding-inline:5%;
+    height:100%;
+    overflow-y: scroll;
+    scrollbar-color: #a67b5b #fff;
+    scrollbar-width: thin;
+}
+
+#HistoricalFiguresOptions::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #a67b5b;
+}

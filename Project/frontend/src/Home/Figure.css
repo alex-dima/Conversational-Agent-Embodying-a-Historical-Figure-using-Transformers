@@ -1,0 +1,30 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    width: 11vw;
+    height: 35vh;
+    margin-inline:2.5%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card > img {
+    border-radius: 5px 5px 0 0;
+    width:100%;
+    height:29.5vh; 
+}
+
+.card > h3 {
+    margin: 0;
+    margin-bottom: 1.25vh;
+}

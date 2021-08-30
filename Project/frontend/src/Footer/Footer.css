@@ -1,0 +1,11 @@
+#credits {
+    height:6.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 12.75vw;
+    background-color: #a67b5b;
+    color: #ffffff;
+    font-size:18px;
+}
