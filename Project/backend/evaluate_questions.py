@@ -17,7 +17,6 @@ URLs = ['https://en.wikipedia.org/wiki/Albert_Einstein', 'https://en.wikipedia.o
 
 # ALBERT XXLARGE / SQUAD v2: F1:89.35 EXACT:86.11
 question_answering = pipeline(task="question-answering", model="ahotrod/albert_xxlargev1_squad2_512", tokenizer="ahotrod/albert_xxlargev1_squad2_512", device=0) 
-# Can't even run one prediction because of lack of GPU
 
 # ALBERT XLARGE / SQUAD v2: F1:87.46 EXACT:84.41
 # question_answering = pipeline(task="question-answering", model="ktrapeznikov/albert-xlarge-v2-squad-v2", tokenizer="ktrapeznikov/albert-xlarge-v2-squad-v2", device=0) 
